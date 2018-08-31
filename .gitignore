@@ -1,7 +1,11 @@
-
+build
+bin
 obj
 exe
 .git
+.settings
+.project
+.cproject
 project_si_config
 moc
 form_h

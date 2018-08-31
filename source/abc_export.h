@@ -7,12 +7,12 @@
 	#else
 		#define ABC_DLL
 	#endif
-#else// #ifdef TOUCH_EXPORT_DLL
+#else
 	#if defined( WIN32 )
 		#define ABC_DLL     __declspec(dllimport)
 	#else
 		#define ABC_DLL
 	#endif
-#endif// #ifdef TOUCH_EXPORT_DLL
+#endif
 
 #endif
